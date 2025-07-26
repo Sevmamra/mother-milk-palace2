@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mother Milk Palace - Premium Online Grocery Delivery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loader-wrapper">
+        <div class="loader">
+            <div class="milk-bottle">
+                <div class="bottle"></div>
+                <div class="milk"></div>
+                <div class="cap"></div>
+            </div>
+            <div class="loading-text">Mother Milk Palace</div>
+        </div>
+    </div>
+
+    <!-- Notification Bar -->
+    <div class="notification-bar">
+        <div class="notification-content">
+            <span class="notification-icon"><i class="fas fa-truck"></i></span>
+            <span class="notification-text">Free delivery on orders above ₹299 | Delivery within 30 minutes</span>
+            <span class="notification-close"><i class="fas fa-times"></i></span>
+        </div>
+    </div>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-left">
+                    <div class="logo">
+                        <a href="#">
+                            <span class="logo-icon">🥛</span>
+                            <span class="logo-text">Mother Milk Palace</span>
+                        </a>
+                    </div>
+                    <div class="delivery-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="location-selector">
+                            <span class="delivery-text">Delivery to</span>
+                            <span class="location">Mumbai 400001 <i class="fas fa-chevron-down"></i></span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="header-center">
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search for products..." class="search-input">
+                        <button class="search-btn"><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+                
+                <div class="header-right">
+                    <div class="header-actions">
+                        <div class="action-item login-btn">
+                            <i class="far fa-user"></i>
+                            <span>Login</span>
+                        </div>
+                        <div class="action-item offers-btn">
+                            <i class="fas fa-tag"></i>
+                            <span>Offers</span>
+                        </div>
+                        <div class="action-item cart-btn">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="cart-count">0</span>
+                            <span>Cart</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-bottom">
+            <div class="container">
+                <nav class="main-nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-home"></i> Home</a></li>
+                        <li class="nav-item category-dropdown">
+                            <a href="#" class="nav-link"><i class="fas fa-list"></i> Categories <i class="fas fa-chevron-down"></i></a>
+                            <div class="mega-menu">
+                                <div class="mega-menu-column">
+                                    <h4>Milk & Dairy</h4>
+                                    <ul>
+                                        <li><a href="#">Cow Milk</a></li>
+                                        <li><a href="#">Buffalo Milk</a></li>
+                                        <li><a href="#">Flavored Milk</a></li>
+                                        <li><a href="#">Paneer & Cheese</a></li>
+                                        <li><a href="#">Curd & Yogurt</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-menu-column">
+                                    <h4>Packaged Food</h4>
+                                    <ul>
+                                        <li><a href="#">Ready to Eat</a></li>
+                                        <li><a href="#">Noodles & Pasta</a></li>
+                                        <li><a href="#">Breakfast Cereals</a></li>
+                                        <li><a href="#">Snacks & Namkeen</a></li>
+                                        <li><a href="#">Canned Food</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-menu-column">
+                                    <h4>Ice creams & More</h4>
+                                    <ul>
+                                        <li><a href="#">Ice Cream Tubs</a></li>
+                                        <li><a href="#">Ice Cream Bars</a></li>
+                                        <li><a href="#">Frozen Desserts</a></li>
+                                        <li><a href="#">Gelatos</a></li>
+                                        <li><a href="#">Sorbets</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-menu-column">
+                                    <h4>Sweet Cravings</h4>
+                                    <ul>
+                                        <li><a href="#">Chocolates</a></li>
+                                        <li><a href="#">Cookies</a></li>
+                                        <li><a href="#">Cakes</a></li>
+                                        <li><a href="#">Indian Sweets</a></li>
+                                        <li><a href="#">Dessert Mixes</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-bolt"></i> Express Delivery</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-percentage"></i> Offers</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-star"></i> Premium</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-question-circle"></i> Help</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="hero">
+        <div class="hero-slider">
+            <div class="hero-slide active" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1606787366850-de6330128bfc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80')">
+                <div class="hero-content">
+                    <h1 class="hero-title">Fresh Dairy Delivered to Your Doorstep</h1>
+                    <p class="hero-subtitle">Get 20% off on your first order</p>
+                    <button class="hero-btn">Shop Now</button>
+                </div>
+            </div>
+            <div class="hero-slide" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80')">
+                <div class="hero-content">
+                    <h1 class="hero-title">Premium Groceries in Minutes</h1>
+                    <p class="hero-subtitle">Delivery within 30 minutes guaranteed</p>
+                    <button class="hero-btn">Order Now</button>
+                </div>
+            </div>
+            <div class="hero-slide" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1550583724-b2692b85b150?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80')">
+                <div class="hero-content">
+                    <h1 class="hero-title">Summer Special Ice Creams</h1>
+                    <p class="hero-subtitle">Buy 1 Get 1 Free on all ice creams</p>
+                    <button class="hero-btn">Cool Offers</button>
+                </div>
+            </div>
+        </div>
+        <div class="hero-slider-controls">
+            <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+            <div class="slider-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+            <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <!-- Quick Categories -->
+    <section class="quick-categories">
+        <div class="container">
+            <h2 class="section-title">Shop by Category</h2>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-wine-bottle"></i>
+                    </div>
+                    <h3 class="category-title">Milk & Dairy</h3>
+                    <p class="category-desc">Fresh dairy products</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-box-open"></i>
+                    </div>
+                    <h3 class="category-title">Packaged Food</h3>
+                    <p class="category-desc">Ready to eat meals</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-ice-cream"></i>
+                    </div>
+                    <h3 class="category-title">Ice Creams</h3>
+                    <p class="category-desc">Cold & delicious</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-candy-cane"></i>
+                    </div>
+                    <h3 class="category-title">Sweet Cravings</h3>
+                    <p class="category-desc">Chocolates & more</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-wine-glass-alt"></i>
+                    </div>
+                    <h3 class="category-title">Cold Drinks</h3>
+                    <p class="category-desc">Juices & beverages</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-cookie"></i>
+                    </div>
+                    <h3 class="category-title">Munchies</h3>
+                    <p class="category-desc">Snacks & chips</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-bread-slice"></i>
+                    </div>
+                    <h3 class="category-title">Biscuits & Bakery</h3>
+                    <p class="category-desc">Fresh bakery items</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-coffee"></i>
+                    </div>
+                    <h3 class="category-title">Breakfast</h3>
+                    <p class="category-desc">Cereals & sauces</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Deals of the Day -->
+    <section class="deals-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Deals of the Day</h2>
+                <div class="timer">
+                    <span class="timer-icon"><i class="fas fa-clock"></i></span>
+                    <span class="timer-text">Ends in: </span>
+                    <span class="timer-count">14:32:05</span>
+                </div>
+                <a href="#" class="view-all">View All</a>
+            </div>
+            <div class="deals-grid">
+                <div class="product-card">
+                    <div class="product-badge">30% OFF</div>
+                    <div class="product-img">
+                        <img src="https://via.placeholder.com/200x200?text=Milk+Bottle" alt="Amul Taaza Milk">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Amul Taaza Milk</h3>
+                        <div class="product-price">
+                            <span class="current-price">₹52</span>
+                            <span class="original-price">₹65</span>
+                            <span class="discount">(Save 20%)</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="add-to-cart">Add to Cart</button>
+                            <button class="wishlist"><i class="far fa-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-badge">BOGO</div>
+                    <div class="product-img">
+                        <img src="https://via.placeholder.com/200x200?text=Ice+Cream" alt="Magnum Ice Cream">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Magnum Ice Cream</h3>
+                        <div class="product-price">
+                            <span class="current-price">₹90</span>
+                            <span class="original-price">₹180</span>
+                            <span class="discount">(Buy 1 Get 1)</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="add-to-cart">Add to Cart</button>
+                            <button class="wishlist"><i class="far fa-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-badge">NEW</div>
+                    <div class="product-img">
+                        <img src="https://via.placeholder.com/200x200?text=Chocolate" alt="Cadbury Dairy Milk">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Cadbury Dairy Milk</h3>
+                        <div class="product-price">
+                            <span class="current-price">₹40</span>
+                            <span class="original-price">₹45</span>
+                            <span class="discount">(Save ₹5)</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="add-to-cart">Add to Cart</button>
+                            <button class="wishlist"><i class="far fa-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-badge">15% OFF</div>
+                    <div class="product-img">
+                        <img src="https://via.placeholder.com/200x200?text=Juice" alt="Real Fruit Juice">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-title">Real Fruit Juice</h3>
+                        <div class="product-price">
+                            <span class="current-price">₹85</span>
+                            <span class="original-price">₹100</span>
+                            <span class="discount">(Save 15%)</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="add-to-cart">Add to Cart</button>
+                            <button class="wishlist"><i class="far fa-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <!-- Premium Products Section -->
+    <section class="premium-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Premium Selection</h2>
+                <div class="section-tagline">Curated quality for discerning tastes</div>
+                <a href="#" class="view-all">Explore Premium</a>
+            </div>
+            <div class="products-grid">
+                <div class="product-card premium">
+                    <div class="product-badge">PREMIUM</div>
+                    <div class="product-img">
+                        <img src="https://via.placeholder.com/200x200?text=Organic+Milk" alt="Organic Milk">
+                        <div class="product-overlay">
+                            <button class="quick-view">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span class="rating-count">(128)</span>
+                        </div>
+                        <h3 class="product-title">Organic Cow Milk - 1L</h3>
+                        <div class="product-meta">Farm Fresh | Pasteurized</div>
+                        <div class="product-price">
+                            <span class="current-price">₹99</span>
+                            <span class="original-price">₹120</span>
+                        </div>
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <button class="quantity-minus">-</button>
+                                <span class="quantity">1</span>
+                                <button class="quantity-plus">+</button>
+                            </div>
+                            <button class="add-to-cart">Add</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card premium">
+                    <div class="product-badge">BESTSELLER</div>
+                    <div class="product-img">
+                        <img src="https://via.placeholder.com/200x200?text=Gourmet+Cheese" alt="Gourmet Cheese">
+                        <div class="product-overlay">
+                            <button class="quick-view">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span class="rating-count">(84)</span>
+                        </div>
+                        <h3 class="product-title">Imported Cheddar Cheese - 200g</h3>
+                        <div class="product-meta">Aged 12 Months | Rich Flavor</div>
+                        <div class="product-price">
+                            <span class="current-price">₹349</span>
+                            <span class="original-price">₹399</span>
+                        </div>
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <button class="quantity-minus">-</button>
+                                <span class="quantity">1</span>
+                                <button class="quantity-plus">+</button>
+                            </div>
+                            <button class="add-to-cart">Add</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card premium">
+                    <div class="product-badge">NEW</div>
+                    <div class="product-img">
+                        <img src="https://via.placeholder.com/200x200?text=Artisan+Ice+Cream" alt="Artisan Ice Cream">
+                        <div class="product-overlay">
+                            <button class="quick-view">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span class="rating-count">(56)</span>
+                        </div>
+                        <h3 class="product-title">Belgian Chocolate Ice Cream - 475ml</h3>
+                        <div class="product-meta">Handcrafted | Rich Cocoa</div>
+                        <div class="product-price">
+                            <span class="current-price">₹325</span>
+                        </div>
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <button class="quantity-minus">-</button>
+                                <span class="quantity">1</span>
+                                <button class="quantity-plus">+</button>
+                            </div>
+                            <button class="add-to-cart">Add</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card premium">
+                    <div class="product-badge">LIMITED</div>
+                    <div class="product-img">
+                        <img src="https://via.placeholder.com/200x200?text=Gourmet+Chocolate" alt="Gourmet Chocolate">
+                        <div class="product-overlay">
+                            <button class="quick-view">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span class="rating-count">(42)</span>
+                        </div>
+                        <h3 class="product-title">Swiss Dark Chocolate - 150g</h3>
+                        <div class="product-meta">70% Cocoa | Almond Crunch</div>
+                        <div class="product-price">
+                            <span class="current-price">₹499</span>
+                            <span class="original-price">₹599</span>
+                        </div>
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <button class="quantity-minus">-</button>
+                                <span class="quantity">1</span>
+                                <button class="quantity-plus">+</button>
+                            </div>
+                            <button class="add-to-cart">Add</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Daily Essentials Section -->
+    <section class="essentials-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Daily Essentials</h2>
+                <div class="section-tagline">Your everyday grocery needs</div>
+            </div>
+            <div class="essentials-tabs">
+                <div class="tab-header">
+                    <button class="tab-btn active" data-tab="milk">Milk & Dairy</button>
+                    <button class="tab-btn" data-tab="bread">Bread & Bakery</button>
+                    <button class="tab-btn" data-tab="eggs">Eggs & Poultry</button>
+                    <button class="tab-btn" data-tab="staples">Staples</button>
+                </div>
+                <div class="tab-content active" id="milk">
+                    <div class="products-carousel">
+                        <div class="product-card essential">
+                            <div class="product-img">
+                                <img src="https://via.placeholder.com/200x200?text=Cow+Milk" alt="Cow Milk">
+                            </div>
+                            <div class="product-details">
+                                <h3 class="product-title">Cow Milk - 500ml</h3>
+                                <div class="product-price">
+                                    <span class="current-price">₹30</span>
+                                </div>
+                                <button class="add-to-cart">Add</button>
+                            </div>
+                        </div>
+                        <div class="product-card essential">
+                            <div class="product-img">
+                                <img src="https://via.placeholder.com/200x200?text=Curd" alt="Fresh Curd">
+                            </div>
+                            <div class="product-details">
+                                <h3 class="product-title">Fresh Curd - 400g</h3>
+                                <div class="product-price">
+                                    <span class="current-price">₹45</span>
+                                </div>
+                                <button class="add-to-cart">Add</button>
+                            </div>
+                        </div>
+                        <div class="product-card essential">
+                            <div class="product-img">
+                                <img src="https://via.placeholder.com/200x200?text=Paneer" alt="Fresh Paneer">
+                            </div>
+                            <div class="product-details">
+                                <h3 class="product-title">Fresh Paneer - 200g</h3>
+                                <div class="product-price">
+                                    <span class="current-price">₹80</span>
+                                </div>
+                                <button class="add-to-cart">Add</button>
+                            </div>
+                        </div>
+                        <div class="product-card essential">
+                            <div class="product-img">
+                                <img src="https://via.placeholder.com/200x200?text=Butter" alt="Amul Butter">
+                            </div>
+                            <div class="product-details">
+                                <h3 class="product-title">Amul Butter - 100g</h3>
+                                <div class="product-price">
+                                    <span class="current-price">₹55</span>
+                                </div>
+                                <button class="add-to-cart">Add</button>
+                            </div>
+                        </div>
+                        <div class="product-card essential">
+                            <div class="product-img">
+                                <img src="https://via.placeholder.com/200x200?text=Cheese" alt="Processed Cheese">
+                            </div>
+                            <div class="product-details">
+                                <h3 class="product-title">Processed Cheese - 200g</h3>
+                                <div class="product-price">
+                                    <span class="current-price">₹110</span>
+                                </div>
+                                <button class="add-to-cart">Add</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" id="bread">
+                    <!-- Bread & Bakery content would go here -->
+                </div>
+                <div class="tab-content" id="eggs">
+                    <!-- Eggs & Poultry content would go here -->
+                </div>
+                <div class="tab-content" id="staples">
+                    <!-- Staples content would go here -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Our Customers Say</h2>
+                <div class="section-tagline">Trusted by thousands of happy customers</div>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Mother Milk Palace has transformed my grocery shopping experience. The milk is always fresh and delivered within 30 minutes as promised. Highly recommended!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-img">
+                            <img src="https://via.placeholder.com/50x50?text=User" alt="Priya Sharma">
+                        </div>
+                        <div class="author-info">
+                            <h4 class="author-name">Priya Sharma</h4>
+                            <div class="author-location">Mumbai</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"The premium selection of dairy products is outstanding. I especially love their artisanal cheeses that are hard to find elsewhere in the city."</p>
+                    <div class="testimonial-author">
+                        <div class="author-img">
+                            <img src="https://via.placeholder.com/50x50?text=User" alt="Rahul Mehta">
+                        </div>
+                        <div class="author-info">
+                            <h4 class="author-name">Rahul Mehta</h4>
+                            <div class="author-location">Pune</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="testimonial-text">"Their express delivery service is a lifesaver when I run out of essentials. The app is easy to use and their customer service is responsive."</p>
+                    <div class="testimonial-author">
+                        <div class="author-img">
+                            <img src="https://via.placeholder.com/50x50?text=User" alt="Ananya Patel">
+                        </div>
+                        <div class="author-info">
+                            <h4 class="author-name">Ananya Patel</h4>
+                            <div class="author-location">Delhi</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonials-cta">
+                <button class="btn-primary">Share Your Experience</button>
+                <button class="btn-secondary">Read More Reviews</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-content">
+                <div class="newsletter-text">
+                    <h2 class="section-title">Stay Updated</h2>
+                    <p class="section-subtitle">Subscribe to our newsletter for exclusive offers and updates</p>
+                </div>
+                <div class="newsletter-form">
+                    <div class="input-group">
+                        <input type="email" placeholder="Enter your email address" class="email-input">
+                        <button class="subscribe-btn">Subscribe</button>
+                    </div>
+                    <div class="newsletter-terms">
+                        <label class="checkbox-container">
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                            <span class="terms-text">I agree to receive marketing communications from Mother Milk Palace</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <!-- App Promotion Section -->
+    <section class="app-section">
+        <div class="container">
+            <div class="app-content">
+                <div class="app-text">
+                    <h2 class="section-title">Get the Mother Milk Palace App</h2>
+                    <p class="section-subtitle">Enjoy faster checkout, exclusive app-only deals, and personalized recommendations</p>
+                    <div class="app-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                            <div class="feature-text">Lightning fast 30-minute delivery</div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-tag"></i>
+                            </div>
+                            <div class="feature-text">Exclusive app-only discounts</div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-bell"></i>
+                            </div>
+                            <div class="feature-text">Personalized alerts for your favorites</div>
+                        </div>
+                    </div>
+                    <div class="app-download">
+                        <p>Download now from</p>
+                        <div class="download-buttons">
+                            <a href="#" class="app-store-btn">
+                                <img src="https://via.placeholder.com/150x50?text=App+Store" alt="App Store">
+                            </a>
+                            <a href="#" class="play-store-btn">
+                                <img src="https://via.placeholder.com/150x50?text=Play+Store" alt="Play Store">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="app-image">
+                    <img src="https://via.placeholder.com/300x600?text=Mobile+App+Screens" alt="Mobile App" class="app-screenshot">
+                    <div class="app-highlight">
+                        <div class="highlight-circle"></div>
+                        <div class="highlight-circle"></div>
+                        <div class="highlight-circle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seasonal Specials Section -->
+    <section class="seasonal-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Seasonal Specials</h2>
+                <div class="section-tagline">Limited time offers for the season</div>
+                <a href="#" class="view-all">View All Seasonal Offers</a>
+            </div>
+            <div class="seasonal-grid">
+                <div class="seasonal-card summer">
+                    <div class="seasonal-overlay"></div>
+                    <div class="seasonal-content">
+                        <h3 class="seasonal-title">Summer Coolers</h3>
+                        <p class="seasonal-desc">Beat the heat with our refreshing range</p>
+                        <button class="seasonal-btn">Shop Now</button>
+                    </div>
+                </div>
+                <div class="seasonal-card monsoon">
+                    <div class="seasonal-overlay"></div>
+                    <div class="seasonal-content">
+                        <h3 class="seasonal-title">Monsoon Munchies</h3>
+                        <p class="seasonal-desc">Perfect snacks for rainy days</p>
+                        <button class="seasonal-btn">Explore</button>
+                    </div>
+                </div>
+                <div class="seasonal-card festive">
+                    <div class="seasonal-overlay"></div>
+                    <div class="seasonal-content">
+                        <h3 class="seasonal-title">Festive Specials</h3>
+                        <p class="seasonal-desc">Traditional sweets and treats</p>
+                        <button class="seasonal-btn">Discover</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brands We Love Section -->
+    <section class="brands-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Brands We Love</h2>
+                <div class="section-tagline">Trusted partners in quality</div>
+            </div>
+            <div class="brands-carousel">
+                <div class="brand-logo">
+                    <img src="https://via.placeholder.com/150x80?text=Amul" alt="Amul">
+                </div>
+                <div class="brand-logo">
+                    <img src="https://via.placeholder.com/150x80?text=Nestle" alt="Nestle">
+                </div>
+                <div class="brand-logo">
+                    <img src="https://via.placeholder.com/150x80?text=Britannia" alt="Britannia">
+                </div>
+                <div class="brand-logo">
+                    <img src="https://via.placeholder.com/150x80?text=Hershey's" alt="Hershey's">
+                </div>
+                <div class="brand-logo">
+                    <img src="https://via.placeholder.com/150x80?text=Dabur" alt="Dabur">
+                </div>
+                <div class="brand-logo">
+                    <img src="https://via.placeholder.com/150x80?text=Mother+Dairy" alt="Mother Dairy">
+                </div>
+                <div class="brand-logo">
+                    <img src="https://via.placeholder.com/150x80?text=Haldiram's" alt="Haldiram's">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="process-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">How Mother Milk Palace Works</h2>
+                <div class="section-tagline">Fresh groceries in just 3 simple steps</div>
+            </div>
+            <div class="process-steps">
+                <div class="step-item">
+                    <div class="step-number">1</div>
+                    <div class="step-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="step-title">Browse & Select</h3>
+                    <p class="step-desc">Choose from 5000+ products across categories</p>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">2</div>
+                    <div class="step-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3 class="step-title">Checkout Securely</h3>
+                    <p class="step-desc">Multiple payment options available</p>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">3</div>
+                    <div class="step-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3 class="step-title">Fast Delivery</h3>
+                    <p class="step-desc">Get your order in as little as 30 minutes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-col about-col">
+                        <h3 class="footer-title">Mother Milk Palace</h3>
+                        <p class="footer-about">Delivering fresh groceries and dairy products to your doorstep with unmatched quality and speed since 2020.</p>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h3 class="footer-title">Shop</h3>
+                        <ul class="footer-links">
+                            <li><a href="#">Milk & Dairy</a></li>
+                            <li><a href="#">Packaged Food</a></li>
+                            <li><a href="#">Ice Creams</a></li>
+                            <li><a href="#">Sweet Cravings</a></li>
+                            <li><a href="#">Cold Drinks</a></li>
+                            <li><a href="#">Munchies</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h3 class="footer-title">Help</h3>
+                        <ul class="footer-links">
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Shipping Policy</a></li>
+                            <li><a href="#">Returns & Refunds</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h3 class="footer-title">Company</h3>
+                        <ul class="footer-links">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Press</a></li>
+                            <li><a href="#">Sell With Us</a></li>
+                            <li><a href="#">Store Locator</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col contact-col">
+                        <h3 class="footer-title">Contact Us</h3>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>123 Dairy Lane, Mumbai, Maharashtra 400001</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone-alt"></i>
+                                <span>+91 98765 43210</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>hello@mothermilkpalace.com</span>
+                            </div>
+                        </div>
+                        <div class="payment-methods">
+                            <img src="https://via.placeholder.com/40x25?text=Visa" alt="Visa">
+                            <img src="https://via.placeholder.com/40x25?text=MC" alt="Mastercard">
+                            <img src="https://via.placeholder.com/40x25?text=Paytm" alt="Paytm">
+                            <img src="https://via.placeholder.com/40x25?text=UPI" alt="UPI">
+                            <img src="https://via.placeholder.com/40x25?text=COD" alt="Cash on Delivery">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="copyright">
+                    &copy; 2023 Mother Milk Palace. All Rights Reserved.
+                </div>
+                <div class="footer-extra">
+                    <span>Made with <i class="fas fa-heart"></i> in India</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Buttons -->
+    <div class="fab-container">
+        <button class="fab-btn main-fab">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count">3</span>
+        </button>
+        <button class="fab-btn chat-fab">
+            <i class="fas fa-comment-dots"></i>
+        </button>
+        <button class="fab-btn scroll-top-fab">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </div>
+
+    <!-- Login Modal -->
+    <div class="modal login-modal">
+        <div class="modal-content">
+            <div class="modal-close">
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="modal-left">
+                <img src="https://via.placeholder.com/400x500?text=Login+Image" alt="Login" class="modal-image">
+            </div>
+            <div class="modal-right">
+                <h2 class="modal-title">Welcome Back</h2>
+                <p class="modal-subtitle">Login to access your account</p>
+                <form class="login-form">
+                    <div class="form-group">
+                        <label for="login-email">Email or Phone Number</label>
+                        <input type="text" id="login-email" placeholder="Enter your email or phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="login-password">Password</label>
+                        <input type="password" id="login-password" placeholder="Enter your password">
+                        <a href="#" class="forgot-password">Forgot Password?</a>
+                    </div>
+                    <button type="submit" class="login-btn">Login</button>
+                    <div class="login-divider">
+                        <span>or</span>
+                    </div>
+                    <button type="button" class="social-login google-login">
+                        <img src="https://via.placeholder.com/20x20?text=G" alt="Google">
+                        Continue with Google
+                    </button>
+                    <button type="button" class="social-login facebook-login">
+                        <img src="https://via.placeholder.com/20x20?text=F" alt="Facebook">
+                        Continue with Facebook
+                    </button>
+                    <div class="register-link">
+                        New to Mother Milk Palace? <a href="#">Create an account</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quick View Modal -->
+    <div class="modal quickview-modal">
+        <div class="modal-content quickview-content">
+            <div class="modal-close">
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="quickview-left">
+                <div class="product-gallery">
+                    <div class="main-image">
+                        <img src="https://via.placeholder.com/400x400?text=Product+Image" alt="Product" class="active">
+                    </div>
+                    <div class="thumbnail-images">
+                        <img src="https://via.placeholder.com/80x80?text=Thumb+1" alt="Thumbnail 1">
+                        <img src="https://via.placeholder.com/80x80?text=Thumb+2" alt="Thumbnail 2">
+                        <img src="https://via.placeholder.com/80x80?text=Thumb+3" alt="Thumbnail 3">
+                        <img src="https://via.placeholder.com/80x80?text=Thumb+4" alt="Thumbnail 4">
+                    </div>
+                </div>
+            </div>
+            <div class="quickview-right">
+                <h2 class="product-title">Amul Taaza Milk - 1 Liter</h2>
+                <div class="product-meta">
+                    <div class="product-rating">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <span class="rating-count">(128 reviews)</span>
+                        <span class="review-link"><a href="#">Write a review</a></span>
+                    </div>
+                    <div class="product-sku">SKU: MMP-DAIRY-001</div>
+                    <div class="product-availability">In Stock (200+ units)</div>
+                </div>
+                <div class="product-price">
+                    <span class="current-price">₹52</span>
+                    <span class="original-price">₹65</span>
+                    <span class="discount">20% OFF</span>
+                </div>
+                <div class="product-details">
+                    <h3 class="details-title">Product Details</h3>
+                    <p>Amul Taaza is toned milk with 3% fat. It is homogenized to give you a richer taste and creamier texture. Pasteurized for safety and longer shelf life.</p>
+                    <ul class="details-list">
+                        <li><strong>Brand:</strong> Amul</li>
+                        <li><strong>Type:</strong> Toned Milk</li>
+                        <li><strong>Quantity:</strong> 1 Liter</li>
+                        <li><strong>Shelf Life:</strong> 2 days (refrigerated)</li>
+                        <li><strong>Packaging:</strong> Tetra Pack</li>
+                    </ul>
+                </div>
+                <div class="product-actions">
+                    <div class="quantity-selector">
+                        <button class="quantity-minus">-</button>
+                        <span class="quantity">1</span>
+                        <button class="quantity-plus">+</button>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="wishlist"><i class="far fa-heart"></i> Wishlist</button>
+                </div>
+                <div class="product-delivery">
+                    <div class="delivery-option">
+                        <i class="fas fa-truck"></i>
+                        <div class="delivery-info">
+                            <span class="delivery-title">Standard Delivery</span>
+                            <span class="delivery-time">Today, 3:00 PM - 5:00 PM</span>
+                        </div>
+                    </div>
+                    <div class="delivery-option">
+                        <i class="fas fa-bolt"></i>
+                        <div class="delivery-info">
+                            <span class="delivery-title">Express Delivery</span>
+                            <span class="delivery-time">Within 30 minutes (Extra ₹30)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-share">
+                    <span>Share this product:</span>
+                    <a href="#" class="share-link"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" class="share-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="share-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="share-link"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-sidebar">
+        <div class="cart-header">
+            <h3 class="cart-title">Your Cart</h3>
+            <div class="cart-close">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+        <div class="cart-items">
+            <div class="cart-item">
+                <div class="item-img">
+                    <img src="https://via.placeholder.com/80x80?text=Product" alt="Product">
+                </div>
+                <div class="item-details">
+                    <h4 class="item-title">Amul Taaza Milk - 1L</h4>
+                    <div class="item-price">₹52 x 2</div>
+                    <div class="item-actions">
+                        <div class="item-quantity">
+                            <button class="quantity-minus">-</button>
+                            <span class="quantity">2</span>
+                            <button class="quantity-plus">+</button>
+                        </div>
+                        <button class="item-remove"><i class="fas fa-trash"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <div class="item-img">
+                    <img src="https://via.placeholder.com/80x80?text=Product" alt="Product">
+                </div>
+                <div class="item-details">
+                    <h4 class="item-title">Britannia Bread - 400g</h4>
+                    <div class="item-price">₹40 x 1</div>
+                    <div class="item-actions">
+                        <div class="item-quantity">
+                            <button class="quantity-minus">-</button>
+                            <span class="quantity">1</span>
+                            <button class="quantity-plus">+</button>
+                        </div>
+                        <button class="item-remove"><i class="fas fa-trash"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cart-summary">
+            <div class="summary-row">
+                <span>Subtotal</span>
+                <span>₹144</span>
+            </div>
+            <div class="summary-row">
+                <span>Delivery</span>
+                <span>FREE</span>
+            </div>
+            <div class="summary-row total">
+                <span>Total</span>
+                <span>₹144</span>
+            </div>
+            <div class="cart-coupon">
+                <input type="text" placeholder="Enter coupon code">
+                <button class="apply-coupon">Apply</button>
+            </div>
+            <button class="checkout-btn">Proceed to Checkout</button>
+            <div class="payment-options">
+                <img src="https://via.placeholder.com/30x20?text=Visa" alt="Visa">
+                <img src="https://via.placeholder.com/30x20?text=MC" alt="Mastercard">
+                <img src="https://via.placeholder.com/30x20?text=UPI" alt="UPI">
+                <img src="https://via.placeholder.com/30x20?text=Paytm" alt="Paytm">
+            </div>
+        </div>
+    </div>
+    <div class="cart-overlay"></div>
+
+    <script src="custom.js"></script>
+</body>
+</html>
